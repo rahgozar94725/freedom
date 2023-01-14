@@ -99,6 +99,12 @@ ulimit -n 51200
 
 به جای bbr از hybla استفاده میکنیم که بازدهی به مراتب بیشتری از bbr دارد.
 
+<div style="text-align: center;">
+
+![alt text](https://markdown.land/wp-content/uploads/2021/06/markdown-512px.png "Our logo")
+
+</div>
+
 <img
     style=
         "display: block;
