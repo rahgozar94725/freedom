@@ -1,9 +1,11 @@
 # تنظیمات اولیه سرور
+
 در ابتدا بعد از خریداری سرور باید یک سری کارهای اولیه انجام بگیرد. تمامی آموزش‌ها بر اساس `ubuntu 20.04` و `ubuntu 22.04` است. همچنین در تمام آموزش از یوزر `root` استفاده میکنیم. اگر یوزر شما غیر از این بود به ابتدای تمامی دستورات عبارت `sudo` را اضافه کنید!
 
 ---
 
 ### تغییر پورت پیشفرض SSH
+
 به دلیل مشکلات اخیر و همچنین برای افزایش امنیت سرور و جلوگیری از کرک شدن آن توصیه می‌شود پورت پیشفرض سرور را تغییر بدهید. برای این منظور دستور زیر را در ترمینال سرور وارد کنید:
 
 ```
@@ -30,8 +32,8 @@ systemctl reload sshd
 
 حالا یک ترمینال با پورت تغییر یافته باز کنید، اگر ترمینال باز شد ترمینال قبلی را ببندید و مرحله بعدی را انجام بدهید اما اگر ترمینال جدید باز نشد در ترمینال قبلی بار دیگر مرال بالا را چک کنید.
 
-
 ---
+
 ### آپدیت سرور و نصب برنامه‌های مورد نیاز
 
 با دستور زیر سرور را آپدیت کنید.
@@ -49,6 +51,7 @@ apt-get install -y software-properties-common ufw wget curl git socat
 ```
 
 ---
+
 ### تنظیمات فایروال
 
 دستورات زیر را به ترتیب وارد کنید و به جای `sshPort` پورتی را که در مرحله قبل به ssh اختصاص دادید قرار دهید.
@@ -68,8 +71,11 @@ ufw limit sshPort
 ```
 echo y | ufw enable
 ```
+
 ---
+
 ### بهینه‌سازی سرور
+
 دستور زیر را اجرا کنید:
 
 ```
@@ -93,9 +99,35 @@ ulimit -n 51200
 
 به جای bbr از hybla استفاده میکنیم که بازدهی به مراتب بیشتری از bbr دارد.
 
-![hybla vs pcc vs bbr vs cubic](../src/hybla001.png "hybla vs pcc vs bbr vs cubic")
-![hybla vs pcc vs bbr vs cubic](../src/hybla002.png "hybla vs pcc vs bbr vs cubic")
-![hybla vs pcc vs bbr vs cubic](../src/hybla003.png "hybla vs pcc vs bbr vs cubic")
+<img
+    style=
+        "display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;"
+    src="../src/hybla001.png"
+    alt="Our logo">
+</img>
+
+<img
+    style=
+        "display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;"
+    src="../src/hybla002.png"
+    alt="Our logo">
+</img>
+
+<img
+    style=
+        "display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;"
+    src="../src/hybla003.png"
+    alt="Our logo">
+</img>
 
 دستور زیر را اجرا کنید:
 
@@ -127,7 +159,9 @@ net.ipv4.tcp_mtu_probing = 1
 net.ipv4.tcp_congestion_control = hybla
 
 ```
+
 ---
+
 ### نصب docker و docker-compose
 
 برای نصب آسان و سریع سرویس‌های مورد نیاز و همچنین نصب چندین سرویس بدون اینکه تداخلی با هم داشته باشند ما در این آموزش از داکر استفاده میکنیم. با دستور زیر داکر را نصب کنید:
@@ -149,8 +183,11 @@ curl -L "https://github.com/docker/compose/releases/download/${LATEST_VERSION}/d
 ```
 chmod +x /usr/local/bin/docker-compose
 ```
+
 ---
+
 ### نصب اسکریپت acme.sh
+
 برای دریافت گواهی ssl از اسکریپت acme.sh استفاده میکنیم. در دستورات زیر به جای `my@email.com` ایمیل خود را جایگزین کرده و دستورات را به ترتیب اجرا کنید:
 
 ```
@@ -164,6 +201,7 @@ acme.sh --set-default-ca --server letsencrypt
 ```
 acme.sh --register-account -m my@email.com
 ```
+
 ---
 
 در نهایت با دستور زیر سرور را ریبوت میکنیم:
