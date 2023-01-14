@@ -131,13 +131,13 @@ ulimit -n 51200
 
 دستور زیر را اجرا کنید:
 
-```
+```bash
 nano /etc/ufw/sysctl.conf
 ```
 
 خطوط زیر را در انتهای فایل اضافه کنید:
 
-```
+```conf
 fs.file-max = 51200
 net.core.rmem_max = 67108864
 net.core.wmem_max = 67108864
@@ -166,7 +166,7 @@ net.ipv4.tcp_congestion_control = hybla
 
 برای نصب آسان و سریع سرویس‌های مورد نیاز و همچنین نصب چندین سرویس بدون اینکه تداخلی با هم داشته باشند ما در این آموزش از داکر استفاده میکنیم. با دستور زیر داکر را نصب کنید:
 
-```
+```bash
 wget --quiet get.docker.com -O docker-setup.sh && sh docker-setup.sh
 ```
 
@@ -176,11 +176,11 @@ wget --quiet get.docker.com -O docker-setup.sh && sh docker-setup.sh
 LATEST_VERSION=$(curl --silent "https://api.github.com/repos/docker/compose/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 ```
 
-```
+```bash
 curl -L "https://github.com/docker/compose/releases/download/${LATEST_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-```
+```bash
 chmod +x /usr/local/bin/docker-compose
 ```
 
@@ -190,15 +190,15 @@ chmod +x /usr/local/bin/docker-compose
 
 برای دریافت گواهی ssl از اسکریپت acme.sh استفاده میکنیم. در دستورات زیر به جای `my@email.com` ایمیل خود را جایگزین کرده و دستورات را به ترتیب اجرا کنید:
 
-```
+```bash
 curl https://get.acme.sh | sh -s email=my@email.com
 ```
 
-```
+```bash
 acme.sh --set-default-ca --server letsencrypt
 ```
 
-```
+```bash
 acme.sh --register-account -m my@email.com
 ```
 
@@ -206,6 +206,6 @@ acme.sh --register-account -m my@email.com
 
 در نهایت با دستور زیر سرور را ریبوت میکنیم:
 
-```
+```bash
 shutdown -r now
 ```
