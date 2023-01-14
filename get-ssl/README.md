@@ -9,7 +9,6 @@
 
 <center>
 
-
 | Security (In Bits) | RSA Key Length Required | ECC Key Length Required |
 | :---: | :---: | :---: |
 |80|1024|160-223|
@@ -17,7 +16,6 @@
 |128|3072|256-383|
 |192|7680|384-511|
 |256|15360|512+|
-
 </center>
 
 
