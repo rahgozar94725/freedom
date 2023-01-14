@@ -9,7 +9,7 @@
 
 <div style="margin-left: auto;
             margin-right: auto;
-            width: 100%">
+            width: 60%">
 
 | Security (In Bits) | RSA Key Length Required | ECC Key Length Required |
 | :---: | :---: | :---: |
