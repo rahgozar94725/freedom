@@ -4,41 +4,41 @@
 
 ---
 
-### تغییر پورت پیشفرض SSH
+## تغییر پورت پیشفرض SSH
 
 به دلیل مشکلات اخیر و همچنین برای افزایش امنیت سرور و جلوگیری از کرک شدن آن توصیه می‌شود پورت پیشفرض سرور را تغییر بدهید. برای این منظور دستور زیر را در ترمینال سرور وارد کنید:
 
-```
+```bash
 nano /etc/ssh/sshd_config
 ```
 
 به وسیله دکمه‌های بالا و پایین کیبورد به خط زیر بیاید:
 
-```
+```conf
 #Port 22
 ```
 
 علامت # اول خط را حذف کرده و عدد 22 را به پورت دلخواه خود تغییر دهید. پیشنهاد میکنم یک عدد چهار رقمی انتخاب کنید. به عنوان مثال:
 
-```
+```conf
 Port 4256
 ```
 
 بعد از انجام تغییرات دکمه‌های `ctrl + x` و `y` و `enter` را بزنید تا تغییرات ذخیره شده و فایل بسته شود. سپس دستور زیر را در ترمینال وارد کنید:
 
-```
-systemctl reload sshd 
+```bash
+systemctl reload sshd
 ```
 
 حالا یک ترمینال با پورت تغییر یافته باز کنید، اگر ترمینال باز شد ترمینال قبلی را ببندید و مرحله بعدی را انجام بدهید اما اگر ترمینال جدید باز نشد در ترمینال قبلی بار دیگر مرال بالا را چک کنید.
 
 ---
 
-### آپدیت سرور و نصب برنامه‌های مورد نیاز
+## آپدیت سرور و نصب برنامه‌های مورد نیاز
 
 با دستور زیر سرور را آپدیت کنید.
 
-```
+```bash
 sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get autoremove -y; apt-get autoclean -y'
 ```
 
@@ -46,45 +46,45 @@ sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get auto
 
 با زدن دستور زیر در ترمینال برنامه‌های مورد نیاز را نصب کنید:
 
-```
+```bash
 apt-get install -y software-properties-common ufw wget curl git socat
 ```
 
 ---
 
-### تنظیمات فایروال
+## تنظیمات فایروال
 
 دستورات زیر را به ترتیب وارد کنید و به جای `sshPort` پورتی را که در مرحله قبل به ssh اختصاص دادید قرار دهید.
 
-```
+```bash
 ufw default deny incoming
 ```
 
-```
+```bash
 ufw default allow outgoing
 ```
 
-```
+```bash
 ufw limit sshPort
 ```
 
-```
+```bash
 echo y | ufw enable
 ```
 
 ---
 
-### بهینه‌سازی سرور
+## بهینه‌سازی سرور
 
 دستور زیر را اجرا کنید:
 
-```
+```bash
 nano /etc/security/limits.conf
 ```
 
 دو خط زیر را به انتهای فایل باز شده اضافه کنید.
 
-```
+```conf
 * soft nofile 51200
 * hard nofile 51200
 ```
@@ -93,7 +93,7 @@ nano /etc/security/limits.conf
 
 دستور زیر را اجرا کنید:
 
-```
+```bash
 ulimit -n 51200
 ```
 
@@ -161,7 +161,7 @@ net.ipv4.tcp_congestion_control = hybla
 
 ---
 
-### نصب docker و docker-compose
+## نصب docker و docker-compose
 
 برای نصب آسان و سریع سرویس‌های مورد نیاز و همچنین نصب چندین سرویس بدون اینکه تداخلی با هم داشته باشند ما در این آموزش از داکر استفاده میکنیم. با دستور زیر داکر را نصب کنید:
 
@@ -171,7 +171,7 @@ wget --quiet get.docker.com -O docker-setup.sh && sh docker-setup.sh
 
 برای نصب docker-compose دستورات زیر را به ترتیب اجرا کنید:
 
-```
+```bash
 LATEST_VERSION=$(curl --silent "https://api.github.com/repos/docker/compose/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 ```
 
@@ -185,7 +185,7 @@ chmod +x /usr/local/bin/docker-compose
 
 ---
 
-### نصب اسکریپت acme.sh
+## نصب اسکریپت acme.sh
 
 برای دریافت گواهی ssl از اسکریپت acme.sh استفاده میکنیم. در دستورات زیر به جای `my@email.com` ایمیل خود را جایگزین کرده و دستورات را به ترتیب اجرا کنید:
 
