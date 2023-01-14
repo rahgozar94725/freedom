@@ -109,7 +109,6 @@ ulimit -n 51200
     src="../src/hybla001.png"
     alt="Our logo">
 </img>
-
 <img
     style=
         "display: block;
@@ -119,7 +118,6 @@ ulimit -n 51200
     src="../src/hybla002.png"
     alt="Our logo">
 </img>
-
 <img
     style=
         "display: block;
