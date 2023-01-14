@@ -100,33 +100,33 @@ ulimit -n 51200
 به جای bbr از hybla استفاده میکنیم که بازدهی به مراتب بیشتری از bbr دارد.
 
 <p align="center">
-<img
-    style=
-        "display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;"
-    src="../src/hybla001.png"
-    alt="Our logo">
-</img>
-<img
-    style=
-        "display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;"
-    src="../src/hybla002.png"
-    alt="Our logo">
-</img>
-<img
-    style=
-        "display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;"
-    src="../src/hybla003.png"
-    alt="Our logo">
-</img>
+    <img
+        style=
+            "display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;"
+        src="../src/hybla001.png"
+        alt="Our logo">
+    </img>
+    <img
+        style=
+            "display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;"
+        src="../src/hybla002.png"
+        alt="Our logo">
+    </img>
+    <img
+        style=
+            "display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;"
+        src="../src/hybla003.png"
+        alt="Our logo">
+    </img>
 </p>
 دستور زیر را اجرا کنید:
 
