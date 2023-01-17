@@ -30,7 +30,7 @@ nano config_sample.json
   "protocol": "auth_aes128_md5",
   "protocol_param": "",
   "obfs": "http_simple",
-  "obfs_param": "aparat.com",
+  "obfs_param": "",
   "redirect": "",
   "dns_ipv6": true,
   "fast_open": true,
