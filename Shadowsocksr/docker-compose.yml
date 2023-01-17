@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    ssr:
+        image: rahgozar94725/ssr
+        container_name: ssr
+        restart: always
+        dns:
+            - 8.8.8.8
+            - 8.8.4.4
+        volumes:
+            - ./config_sample.json:/etc/shadowsocksr/config.json:ro
+        ports:
+            - "8080:8080"
+            - "8080:8080/udp"
