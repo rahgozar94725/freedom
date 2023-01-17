@@ -161,3 +161,8 @@ docker-compose down
 ```bash
 docker-compose down && docker-compose up --pull always -d
 ```
+
+## کلاینت
+
+- [android](https://github.com/shadowsocksrr/shadowsocksr-android/releases/download/3.5.4/shadowsocksr-android-3.5.4.apk)
+- [windows](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.2/ShadowsocksR-win-4.9.2.zip)
