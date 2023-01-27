@@ -97,7 +97,7 @@ nano /etc/security/limits.conf
 ulimit -n 51200
 ```
 
-به جای bbr از hybla استفاده میکنیم که بازدهی به مراتب بیشتری از bbr دارد.
+به جای BBR از Hybla استفاده میکنیم که بازدهی به مراتب بیشتری از BBR دارد.
 
 <p align="center">
     <img
@@ -107,7 +107,7 @@ ulimit -n 51200
             margin-right: auto;
             width: 50%;"
         src="../src/hybla001.png"
-        alt="Our logo">
+        alt="BBR vs Cubic vs Hybla vs PCC">
     </img>
     <img
         style=
@@ -116,7 +116,7 @@ ulimit -n 51200
             margin-right: auto;
             width: 50%;"
         src="../src/hybla002.png"
-        alt="Our logo">
+        alt="BBR vs Cubic vs Hybla vs PCC">
     </img>
     <img
         style=
@@ -125,7 +125,7 @@ ulimit -n 51200
             margin-right: auto;
             width: 50%;"
         src="../src/hybla003.png"
-        alt="Our logo">
+        alt="BBR vs Cubic vs Hybla vs PCC">
     </img>
 </p>
 دستور زیر را اجرا کنید:
@@ -199,6 +199,10 @@ acme.sh --set-default-ca --server letsencrypt
 
 ```bash
 acme.sh --register-account -m my@email.com
+```
+
+```bash
+acme.sh --upgrade --auto-upgrade
 ```
 
 ---

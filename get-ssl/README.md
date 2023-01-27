@@ -45,7 +45,7 @@ acme.sh --issue --dns dns_cf --keylength ec-256 -d sub.test.com
 در دستور زیر عبارت `sub.test.com` را با دامنه خود جایگزین کرده و اجرا کنید.
 
 ```bash
-acme.sh --installcert --ecc -d sub.test.com --key-file /opt/cert/sub.test.com.key --cert-file /opt/cert/sub.test.com.cer --fullchain-file /opt/cert/sub.test.com.fullchain.cer --ca-file /opt/cert/sub.test.com.ca.cer
+acme.sh --installcert --ecc -d sub.test.com --key-file /opt/cert/private.key --cert-file /opt/cert/cert.crt --fullchain-file /opt/cert/fullchain.crt --ca-file /opt/cert/ca.crt
 ```
 
 در صورتی که بیش از یک دامنه دارید برای استفاده از این روش باید مطابق [این لینک](https://github.com/acmesh-official/acme.sh/wiki/Utilize-multiple-DNS-API-keys) عمل کنید.
@@ -63,8 +63,12 @@ acme.sh --issue --standalone --keylength ec-256 -d sub.test.com
 در دستور زیر عبارت `sub.test.com` را با دامنه خود جایگزین کرده و اجرا کنید.
 
 ```bash
-acme.sh --installcert --ecc -d sub.test.com --key-file /opt/cert/sub.test.com.key --cert-file /opt/cert/sub.test.com.cer --fullchain-file /opt/cert/sub.test.com.fullchain.cer --ca-file /opt/cert/sub.test.com.ca.cer
+acme.sh --installcert --ecc -d sub.test.com --key-file /opt/cert/private.key --cert-file /opt/cert/cert.crt --fullchain-file /opt/cert/fullchain.crt --ca-file /opt/cert/ca.crt
 ```
+
+### با روش webroot
+
+از آنجایی که در این روش نیاز به وب سرور داریم، آموزش این قسمت در بخش [nginx](../nginx/README.md) توضیح داده شده است.
 
 ---
 

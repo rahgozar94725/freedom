@@ -1,9 +1,10 @@
-version: "3"
+version: "3.3"
 
 services:
     ssr:
         image: rahgozar94725/ssr
         container_name: ssr
+        network_mode: host
         restart: always
         dns:
             - 8.8.8.8

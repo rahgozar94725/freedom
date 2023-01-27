@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  xui:
+    image: enwaiax/x-ui:alpha
+    container_name: xui
+    network_mode: host
+    volumes:
+      - "./db/:/etc/x-ui/"
+      - "/opt/cert/:/root/cert/"
+    environment:
+      - TZ=Asia/Tehran
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    restart: always

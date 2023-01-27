@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  ss-tls:
+    image: teddysun/shadowsocks-rust
+    container_name: ss-tls
+    network_mode: host
+    environment:
+      - TZ=Asia/Tehran
+    restart: always
+    volumes:
+      - ./config.json:/etc/shadowsocks-rust/config.json:ro
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
