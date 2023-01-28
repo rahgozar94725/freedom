@@ -159,10 +159,10 @@ docker-compose down && docker-compose up --pull always -d
     </img>
 </p>
 
+<p style='direction:rtl; text-align: right'>
 طبق توضیحات اطلاعات لازم را تکمیل کنید.
-&#x202b;
 
-- در شماره 1 اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
+- در شماره یک اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
 
   - از دامنه مستقیم `sub.test.com` استفاده کنید
   - از دامنه `CDN` کلاودفلر `subcdn.test.com` استفاده کنید
@@ -183,4 +183,5 @@ docker-compose down && docker-compose up --pull always -d
 - در شماره 8 روی `Apply` کلیک کنید
 - در شماره 9 روی `Ok` کلیک کنید.
 
+</p>
 </div>
