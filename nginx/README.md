@@ -1,3 +1,5 @@
+<div dir=rtl>
+
 # نصب و کانفیگ nginx
 
 ---
