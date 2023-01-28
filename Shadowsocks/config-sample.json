@@ -1,9 +1,9 @@
 {
     "server": "0.0.0.0",
     "server_port": 7070,
-    "password": "haakha",
+    "password": "password",
     "timeout": 300,
-    "method": "aes-128-gcm",
+    "method": "chacha20-ietf-poly1305",
     "nameserver": "8.8.8.8",
     "mode": "tcp_and_udp",
     "plugin": "xray-plugin",
