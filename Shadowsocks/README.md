@@ -1,4 +1,4 @@
-<div dir=auto  align="right">
+<div dir=auto>
 
 # نصب shadowsocks
 
