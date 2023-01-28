@@ -1,5 +1,3 @@
-<div dir=rtl>
-
 # نصب shadowsocks
 
 برای نصب ابتدا وارد پوشه `shadowsocks` شوید
@@ -159,7 +157,6 @@ docker-compose down && docker-compose up --pull always -d
     </img>
 </p>
 
-<p style='direction:rtl; text-align: right'>
 طبق توضیحات اطلاعات لازم را تکمیل کنید.
 
 - در شماره یک اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
@@ -182,6 +179,3 @@ docker-compose down && docker-compose up --pull always -d
 - در شماره 7 پورت پروکسی ایجاد شده در ویندوز را میتوانید تغییر دهید. به صورت پیشفرض روی پورت `1080` یک پروکسی `socks5` ایجاد میشود که با اتصال به آن میتوانید به فیلترشکن متصل شوید.
 - در شماره 8 روی `Apply` کلیک کنید
 - در شماره 9 روی `Ok` کلیک کنید.
-
-</p>
-</div>
