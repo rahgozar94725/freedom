@@ -159,8 +159,7 @@ docker-compose down && docker-compose up --pull always -d
 </p>
 طبق توضیحات اطلاعات لازم را تکمیل کنید.
 
-* در شماره یک اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
-
+* در شماره یک اگر طبق آموزش پیشرفته باشید چند انتخاب داری-
 * دامنه مستقیم `sub.test.com`
 * دامنه CDN کلاودفلر `subcdn.test.com`
 * دامنه CDN آروان `subcdn.test1.com`
@@ -174,6 +173,7 @@ docker-compose down && docker-compose up --pull always -d
 
   * اگر انتخابتان `server;mode=grpc;serviceName=grpc7070` بود، `tls;host=sub.test.com;serviceName=grpc7070` را وارد کنید.
   * اگر انتخابتان `server;path=/wss7070` بود، `tls;host=sub.test.com;path=/wss7070?ed=2048` را وارد کنید.
+
 * در شماره 7 پورت پروکسی ایجاد شده در ویندوز را میتوانید تغییر دهید. به صورت پیشفرض روی پورت `1080` یک پروکسی `socks5` ایجاد میشود که با اتصال به آن میتوانید به فیلترشکن متصل شوید.
 * در شماره 8 روی `Apply` کلیک کنید
 * در شماره 9 روی `Ok` کلیک کنید.
