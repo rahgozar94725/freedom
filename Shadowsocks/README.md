@@ -161,7 +161,7 @@ docker-compose down && docker-compose up --pull always -d
 
 طبق توضیحات اطلاعات لازم را تکمیل کنید.
 
-- در شماره یک اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
+- &#x202b;در شماره یک اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
 
   - از دامنه مستقیم `sub.test.com` استفاده کنید
   - از دامنه `CDN` کلاودفلر `subcdn.test.com` استفاده کنید
@@ -181,5 +181,11 @@ docker-compose down && docker-compose up --pull always -d
 - در شماره 7 پورت پروکسی ایجاد شده در ویندوز را میتوانید تغییر دهید. به صورت پیشفرض روی پورت `1080` یک پروکسی `socks5` ایجاد میشود که با اتصال به آن میتوانید به فیلترشکن متصل شوید.
 - در شماره 8 روی `Apply` کلیک کنید
 - در شماره 9 روی `Ok` کلیک کنید.
+
+<center>
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=1z13b4f4dqtsiogys4ypxu1r5z02sn3h&left_color=black&right_color=blue)
+
+</center>
 
 </div>
