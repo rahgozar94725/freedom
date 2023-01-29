@@ -160,14 +160,14 @@ docker-compose down && docker-compose up --pull always -d
 </p>
 
 طبق توضیحات اطلاعات لازم را تکمیل کنید.
-
+<p align="right">
 - در شماره 1 اگر طبق آموزش پیشرفته باشید چند انتخاب دارید
 
-  - از دامنه مستقیم `sub.test.com` استفاده کنید
-  - از دامنه `CDN` کلاودفلر `subcdn.test.com` استفاده کنید
-  - از دامنه `CDN` آروان `subcdn.test1.com` استفاده کنید
-  - از کاستوم آیپی کلاودفلر استفاده کنید
-  - از دامنه هایی که از `CDN` کلاودفلر استفاده میکنند و فیلتر نیستند مثل `discord.com` استفاده کنید
+- از دامنه مستقیم `sub.test.com` استفاده کنید
+- از دامنه `CDN` کلاودفلر `subcdn.test.com` استفاده کنید
+- از دامنه `CDN` آروان `subcdn.test1.com` استفاده کنید
+- از کاستوم آیپی کلاودفلر استفاده کنید
+- از دامنه هایی که از `CDN` کلاودفلر استفاده میکنند و فیلتر نیستند مثل `discord.com` استفاده کنید
 
 - در شماره 2 اگر طبق آموزش پیشرفته باشید `443` و یا `2083` را میتوانید وارد کنید
 - در شماره 3 پسوردی را که در مراحل نصب انتخاب کردید وارد کنید
@@ -182,6 +182,7 @@ docker-compose down && docker-compose up --pull always -d
 - در شماره 8 روی `Apply` کلیک کنید
 - در شماره 9 روی `Ok` کلیک کنید.
 
+</p>
 <center>
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=1z13b4f4dqtsiogys4ypxu1r5z02sn3h&left_color=black&right_color=blue)
