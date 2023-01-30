@@ -6,7 +6,7 @@ services:
     network_mode: host
     volumes:
       - "./db/:/etc/x-ui/"
-      - "/opt/cert/:/root/cert/"
+      - "/opt/cert/:/opt/cert/"
     environment:
       - TZ=Asia/Tehran
     dns:
