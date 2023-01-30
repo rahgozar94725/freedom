@@ -10,7 +10,4 @@ services:
             - 8.8.8.8
             - 8.8.4.4
         volumes:
-            - ./config_sample.json:/etc/shadowsocksr/config.json:ro
-        ports:
-            - "8080:8080"
-            - "8080:8080/udp"
+            - ./config.json:/etc/shadowsocksr/config.json:ro

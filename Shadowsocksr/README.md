@@ -1,3 +1,5 @@
+<div dir=auto>
+
 # نصب shadowsocksr
 
 برای نصب ابتدا وارد پوشه `shadowsocksr` شوید:
@@ -8,7 +10,13 @@ cd /opt/freedom/shdowsocksr
 
 ## تنظیمات مربوط به فایل کانفیگ
 
-با دستور زیر فایل `config_sample.json` را باز کنید و پس از انجام تغییرات لازم با زدن کلیدهای `ctrl + x` و `y` و `enter` تغییرات را ذخیره کنید.
+ابتدا با دستور زیر فایل `config.json` را از روی فایل نمونه ایجاد میکنیم.
+
+```bash
+cp config-sample.json config.json
+```
+
+با دستور زیر فایل `config.json` را باز کنید و پس از انجام تغییرات لازم با زدن کلیدهای `ctrl + x` و `y` و `enter` تغییرات را ذخیره کنید.
 
 ```bash
 nano config_sample.json
@@ -172,3 +180,5 @@ docker-compose down && docker-compose up --pull always -d
 
 - [android](https://github.com/shadowsocksrr/shadowsocksr-android/releases/download/3.5.4/shadowsocksr-android-3.5.4.apk)
 - [windows](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.2/ShadowsocksR-win-4.9.2.zip)
+
+</div>
