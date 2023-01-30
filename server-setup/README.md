@@ -194,6 +194,10 @@ curl https://get.acme.sh | sh -s email=my@email.com
 ```
 
 ```bash
+source  ~/.bashrc
+```
+
+```bash
 acme.sh --set-default-ca --server letsencrypt
 ```
 
