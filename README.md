@@ -20,6 +20,12 @@
 
 ## نصب سرویس های مورد نظر
 
+ابتدا با دستور زیر فایل های مورد نیاز را دریافت کنید.
+
+```bash
+wget https://github.com/rahgozar94725/freedom/releases/download/14011110/freedom.tar.gz && tar -xzvf freedom.tar.gz -C /opt/
+```
+
 - [نصب nginx](nginx/README.md)
 - [نصب پنل x-ui](x-ui/README.md)
 - [نصب shadowsoks](Shadowsocks/README.md)
@@ -29,3 +35,6 @@
 
 - [کانال تلگرام](https://t.me/rahgozar94725_channel)
 - [گروه تلگرام](https://t.me/rahgozar94725_group)
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=w5p2vusai84cv3zp&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)

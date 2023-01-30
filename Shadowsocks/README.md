@@ -223,6 +223,7 @@ docker-compose down && docker-compose up --pull always -d
   - اگر انتخابتان `server;path=/wss7070` بود، در قسمت  `Path` باید `/wss7070` را وارد کنید.
 - در شماره 10 دو بار کلیک کنید تا پروفایل ذخیره شود.
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=1z13b4f4dqtsiogys4ypxu1r5z02sn3h&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=3j4yencsdrplxel0&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
 
 </div>

@@ -212,3 +212,6 @@ acme.sh --upgrade --auto-upgrade
 ```bash
 shutdown -r now
 ```
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=ilws8xfk4lzxvawm&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)

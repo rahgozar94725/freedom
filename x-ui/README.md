@@ -363,4 +363,8 @@ ufw allow 6587
 - ترکیبات فوق ترکیباتی هستند که در حال حاضر خوب جواب میدهند ترکیبات دیگر توصیه نمیشود هرچند میتوانید خودتان تست کنید.
 - اگر از پورت های `80` و `443` و `2083` که به `nginx` اختصاص دادیم استفاده نکنید میتوانید از پورت های دیگر استفاده کنید. در اینصورت ترافیک از `nginx` عبور نمیکند و باید در هنگام ساخت `inbond` ها در قسمت `tls` مسیر گواهی ها را وارد کنید و همچنین پورتی را که قصد استفاده دارید در فایروال باز کنید.ّ
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=lw9zx4mmapytxuzr&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
+
+
 </div>

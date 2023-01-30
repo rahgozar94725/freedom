@@ -156,4 +156,7 @@ docker-compose up -d
 
 سرور nginx ما با موفقیت راه اندازی شده و آماده استفاده هست.
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=d07nh2d5aksz2ley&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
+
 </div>

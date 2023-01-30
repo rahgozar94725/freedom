@@ -181,4 +181,7 @@ docker-compose down && docker-compose up --pull always -d
 - [android](https://github.com/shadowsocksrr/shadowsocksr-android/releases/download/3.5.4/shadowsocksr-android-3.5.4.apk)
 - [windows](https://github.com/shadowsocksrr/shadowsocksr-csharp/releases/download/4.9.2/ShadowsocksR-win-4.9.2.zip)
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=hznzzt0bezuzut4g&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
+
 </div>

@@ -119,3 +119,6 @@
 ![cloudflare add site](../src/cf021.png)
 
 کارمان با سایت کلاودفلر تمام شد. موفق باشید
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=kufep9kd74zupwjn&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
