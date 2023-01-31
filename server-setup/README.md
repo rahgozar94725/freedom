@@ -47,7 +47,7 @@ sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-get auto
 با زدن دستور زیر در ترمینال برنامه‌های مورد نیاز را نصب کنید:
 
 ```bash
-apt-get install -y software-properties-common ufw wget curl git socat cron busybox bash-completion locales
+apt-get install -y software-properties-common ufw wget curl git socat cron busybox bash-completion locales nano apt-utils
 ```
 
 ---
