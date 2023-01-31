@@ -5,7 +5,7 @@
 برای نصب ابتدا وارد پوشه `shadowsocks` شوید
 
 ```bash
-cd /opt/freedom/shadowsocks
+cd /opt/freedom/Shadowsocks
 ```
 
 ## تنظیمات مربوط به فایل کانفیگ

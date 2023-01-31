@@ -5,7 +5,7 @@
 برای نصب ابتدا وارد پوشه `shadowsocksr` شوید:
 
 ```bash
-cd /opt/freedom/shdowsocksr
+cd /opt/freedom/Shdowsocksr
 ```
 
 ## تنظیمات مربوط به فایل کانفیگ
