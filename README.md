@@ -3,7 +3,7 @@
 # آزادی
 
 <p align="center">
-    <a href="https://www.youtube.com/channel/UCXbI_icUiT-W4BmjPWQtHFQ">
+    <a href="https://youtu.be/cczU4R19Jxc">
         <img
             style=
                 "display: block;
