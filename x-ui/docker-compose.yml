@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   xui:
-    image: enwaiax/x-ui:alpha
+    image: rahgozar94725/x-ui
     container_name: xui
     network_mode: host
     volumes:
