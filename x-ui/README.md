@@ -163,6 +163,18 @@ docker-compose exec xui x-ui setting -username newUserName -password newPassword
 docker-compose exec xui x-ui setting -port newPort
 ```
 
+بعد از تغییر پورت با دستور زیر پورت قبلی را در فایروال ببندید. `oldPort` را با پورت فعلی جایگزین کنید
+
+```bash
+ufw delete allow oldPort
+```
+
+با دستور زیر پورت جدید را در فایروال باز کنید. `newPort` را با پورت جدید جایگزین کنید.
+
+```bash
+ufw allow newPort
+```
+
 ---
 
 ## ساخت Trojan + websocket + TLS
