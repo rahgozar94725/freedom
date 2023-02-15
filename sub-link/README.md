@@ -277,3 +277,8 @@
 - تیک کادرهای شماره 1 و 2 را فعال کنید.
 - در کادر شماره 3، سابدامین اختصاصی خود را که در مراحل قبل ایجاد کردید، وارد کنید. د
 - با کلیک بر روی کادر شماره 4، لینک خود را کپی کرده و به یوزر خود بدهید.
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=fog8u3b47kvxznae&left_color=black&right_color=blue)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
+
+</div>
