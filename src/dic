@@ -1,2 +1,2 @@
-fn 01 = salam donya
-en 01 = Hello World
+en 01 = Do you want to proceed? (yes/no)
+fn 01 = aya edame midahid? (yes/no)
