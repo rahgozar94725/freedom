@@ -1,2 +1,6 @@
-en 01 = Do you want to proceed? (yes/no)
-fn 01 = aya edame midahid? (yes/no)
+en 01 = Do you want to proceed?
+fn 01 = aya edame midahid?
+en 02 = Choose one of the options:
+fn 02 = yeki az gozine ha ra entekhab konid:
+en 03 = "Initial server setup" nginx x-ui shadowsocks shadowsocksr check "change language" exit
+fn 03 = "rah andaziye avaliye server" nginx x-ui shadowsocks shadowsocksr check "change language" exit
