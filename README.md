@@ -64,5 +64,28 @@ wget https://github.com/rahgozar94725/freedom/releases/download/14011122/freedom
 - [کانال تلگرام](https://t.me/rahgozar94725_channel)
 - [گروه تلگرام](https://t.me/rahgozar94725_group)
 
+---
+
+##### دونیت
+
+اگر این آموزش به شما کمک کرده است و در صورت تمایل میتوانید با دونیت کردن، از من حمایت کنید.
+
+```text
+Bitcoin (BTC)
+bc1qg6n8kpa7nfscft8ltfxpckeuj9lytmnma80w5k
+
+Tether (USDT - ERC20)
+0x51bc905cF39641D46c7E4190cE279830711FB86e
+
+Tether (USDT - TRC20)
+TCG4f449FvLFgkjtkdWvrwC6N9cUXmE9GQ
+
+Litecoin (LTC)
+ltc1qapac5j405lavr30yt24ycpsf6g40pl6xmd9f5q
+
+Dogecoin (DOGE)
+DCKeC5xBr6RbAWzTz6nPJM6pU12gyP9GX4
+```
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=w5p2vusai84cv3zp&left_color=black&right_color=blue)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
