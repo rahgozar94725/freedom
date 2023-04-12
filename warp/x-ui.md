@@ -47,7 +47,7 @@ sudo apt -f install # Fix missing packages
 
 
 ```bash
-warp-cli register
+warp-cli register # press y to agree
 warp-cli set-mode proxy
 warp-cli set-proxy-port 10864
 warp-cli connect
