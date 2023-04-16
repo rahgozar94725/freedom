@@ -19,7 +19,7 @@ cp config-sample.json config.json
 با دستور زیر فایل `config.json` را باز کنید و پس از انجام تغییرات لازم با زدن کلیدهای `ctrl + x` و `y` و `enter` تغییرات را ذخیره کنید.
 
 ```bash
-nano config_sample.json
+nano config.json
 ```
 
 محتوای فایل مذکور به شکل زیر است:
