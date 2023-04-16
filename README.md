@@ -57,7 +57,7 @@ wget https://github.com/rahgozar94725/freedom/releases/download/14011122/freedom
 - [نصب nginx](nginx/README.md)
 - [نصب پنل x-ui](x-ui/README.md)
 - [نصب shadowsoks](Shadowsocks/README.md)
-- [نصب shadowsocksr](Shadowsocksr/README.md)
+- [نصب shadowsocksr](Shadowsocksr/README.rtl.md)
 
 ## ارتباط با ما
 
