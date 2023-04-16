@@ -137,14 +137,10 @@ services:
       - 8.8.4.4
     volumes:
       - ./config_sample.json:/etc/shadowsocksr/config.json:ro
-    ports:
-      - "8080:8080"
-      - "8080:8080/udp"
 ```
 
-در این فایل فقط در قسمت `ports:` پورتی را که در [مرحله قبل](./README.md#تغییر-port) انتخاب کردید با `8080` تعویض کنید.
-
 با دستور زیر پورت انتخابی در مرحله قبل رادر فایروال باز کنید. اگر پورت را تغییر داده اید آن را با `8080` تعویض کنید
+README.rtl.md
 
 ```bash
 ufw allow 8080 && ufw allow 8080/udp
