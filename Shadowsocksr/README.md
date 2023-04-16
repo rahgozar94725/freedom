@@ -136,7 +136,7 @@ services:
       - 8.8.8.8
       - 8.8.4.4
     volumes:
-      - ./config_sample.json:/etc/shadowsocksr/config.json:ro
+      - ./config.json:/etc/shadowsocksr/config.json:ro
 ```
 
 با دستور زیر پورت انتخابی در مرحله قبل رادر فایروال باز کنید. اگر پورت را تغییر داده اید آن را با `8080` تعویض کنید
