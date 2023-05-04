@@ -9,6 +9,12 @@
 - [راه اندازی اولیه سرور](./server-setup.md)
 - [استفاده از روش iptables](./iptables.md)
 
+# پنل به پنل
+
+در صورتی که سرور خارج شما در سرور ایران فیلتر شده است و یا اینکه به وسیله پورت فورواردینگ نتیجه مطلوبی نمیگیرید از این روش استفاده کنید.
+
+[آموزش پنل به پنل](./p-to-p.md)
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=5bije2yqua76sx9p&left_color=black&right_color=blue)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=p349hm7zbpijpqan&left_color=black&right_color=blue)
 
