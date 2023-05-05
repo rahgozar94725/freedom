@@ -204,7 +204,7 @@ tar -xzvf CloudflareST_linux*
 با دستور زیر اسکن را انجام میدهیم
 
 ```bash
-./CloudflareST -n 50 -dn 20 -sl 80 -tl 200 -httping -o natijeh.csv
+./CloudflareST -n 50 -dn 20 -sl 80 -tl 200 -httping -url https://speed.cloudflare.com/__down?bytes=200000000 -o natijeh.csv
 ```
 
 بعد از تمام شدن اسکن، حداکثر 10 آیپی با بهترین نتیجه نمایش داده میشود. لازم است آیپی ها را یک به یک تست کنید.
