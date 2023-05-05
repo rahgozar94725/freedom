@@ -204,6 +204,12 @@ tar -xzvf CloudflareST_linux*
 با دستور زیر اسکن را انجام میدهیم
 
 ```bash
+./CloudflareST -n 50 -dn 20 -sl 80 -tl 200 -httping -o natijeh.csv
+```
+
+اگر دستور بالا هیچ نتیجه ای نداد از این دستور استفاده کنید
+
+```bash
 ./CloudflareST -n 50 -dn 20 -sl 80 -tl 200 -httping -url https://speed.cloudflare.com/__down?bytes=200000000 -o natijeh.csv
 ```
 
