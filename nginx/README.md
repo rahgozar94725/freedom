@@ -83,7 +83,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /opt/cert/default.ke
 برای دریافت گواهی SSL باید به طور موقت قسمت های مربوط به SSL را در فایل کانفیگ غیرفعال کنیم. دستور زیر را در ترمینال اجرا کنید.
 
 ```bash
-sed -i -r 's/(listen .*(443|2053|2083|2087|2096|8443))/\1; #/g; s/(ssl_(certificate|certificate_key|trusted_certificate|dhparam) )/#;#\1/g; s/(server \{)/\1\n    ssl off;/g' /opt/freedom/nginx/nginx.conf
+sed -i -r 's/(listen .*(443|2053|2083|2087|2096|8443))/\1; #/g; s/(ssl_(certificate|certificate_key|trusted_certificate|dhparam) )/#;#\1/g;' /opt/freedom/nginx/nginx.conf
 ```
 
 * توجه داشته باشید در صورتی که دستور فوق با موفقیت اجرا شود، شما هیچ پاسخ و خروجی دریافت نخواهید کرد !!!
@@ -141,7 +141,7 @@ docker-compose down
 با دستور زیر قسمت های مربوط به SSL را در فایل `nginx.conf` که در مراحل قبل غیرفعال کرده بودیم، فعال میکنیم
 
 ```bash
-sed -i -r -z 's/#?; ?#//g; s/(server \{)\n    ssl off;/\1/g' /opt/freedom/nginx/nginx.conf
+sed -i -r -z 's/#?; ?#//g;' /opt/freedom/nginx/nginx.conf
 ```
 
 با دستور زیر سرور را مجددا راه اندازی میکنیم
