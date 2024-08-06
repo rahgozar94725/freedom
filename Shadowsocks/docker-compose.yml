@@ -1,4 +1,3 @@
-version: '3.3'
 services:
   ss-tls:
     image: teddysun/shadowsocks-rust
