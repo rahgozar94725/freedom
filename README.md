@@ -54,7 +54,7 @@
 ابتدا با دستور زیر فایل های مورد نیاز را دریافت کنید.
 
 ```bash
-wget https://github.com/rahgozar94725/freedom/releases/download/14020330/freedom.tar.gz && tar -xzvf freedom.tar.gz -C /opt/
+wget https://github.com/rahgozar94725/freedom/releases/download/freedom-14030516/freedom.tar.gz && tar -xzvf freedom.tar.gz -C /opt/
 ```
 
 - [نصب nginx](nginx/README.md)
